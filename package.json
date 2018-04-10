@@ -1,0 +1,20 @@
+{
+  "name": "newsapi-label-dict",
+  "version": "0.1.0",
+  "description": "ISO 3166-1 translations for NewsAPI Labels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgolovine/newsapi-label-dict.git"
+  },
+  "keywords": ["newsapi", "iso3166-1"],
+  "author": "Sunny Golovine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgolovine/newsapi-label-dict/issues"
+  },
+  "homepage": "https://github.com/sgolovine/newsapi-label-dict#readme"
+}
