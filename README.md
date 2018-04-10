@@ -8,8 +8,10 @@ A tiny library that translates NewsAPI (ISO 3166-1) country and category labels 
 
 WIP but likely something like this
 
+```
 > > dict('au')
 > > Australia
+```
 
 # License
 
