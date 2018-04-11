@@ -1,5 +1,6 @@
+const countries = require("./countries")
 function main() {
-  console.log("Main Function")
+  console.log(countries.foo)
 }
 
 main()
