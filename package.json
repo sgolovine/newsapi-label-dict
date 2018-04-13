@@ -1,6 +1,6 @@
 {
   "name": "newsapi-label-dict",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ISO 3166-1 translations for NewsAPI Labels",
   "main": "index.js",
   "scripts": {

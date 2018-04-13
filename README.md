@@ -19,17 +19,22 @@ Usage is very straightforward
 ```
 import { countries, categories, languages } from 'newsapi-label-dict'
 
-var au = countries('au')
-var entertainment = categories('entertainment')
-var es = languages('es')
+countries.ru
+>> Russia
 
-console.log(au)
->> Australia
+categories.sports
+>> Sports
 
-console.log(entertainment)
->> Entertainment
+languages.es
+>> Spanish
 
-console.log(es)
+getCountry('ru')
+>> Russia
+
+getCategory('sports')
+>> Sports
+
+getLanguage('es')
 >> Spanish
 ```
 
