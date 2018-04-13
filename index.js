@@ -1,6 +1,9 @@
 const countries = require("./countries")
-function main() {
-  console.log(countries.foo)
-}
+const categories = require("./categories")
+const languages = require("./languages")
 
-main()
+module.exports = {
+  countries,
+  categories,
+  languages,
+}
