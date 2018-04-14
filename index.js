@@ -36,6 +36,6 @@ module.exports = {
   getLanguage,
   getObject,
   countryKeys: keys.countryKeys,
-  catgegoryKeys: keys.categoryKeys,
+  categoryKeys: keys.categoryKeys,
   languageKeys: keys.languageKeys,
 }
