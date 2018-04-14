@@ -17,25 +17,32 @@ OR
 Usage is very straightforward
 
 ```
-import { countries, categories, languages } from 'newsapi-label-dict'
+import * as dict from 'newsapi-label-dict'
 
-countries.ru
+dict.countries.ru
 >> Russia
 
-categories.sports
+dict.categories.sports
 >> Sports
 
-languages.es
+dict.languages.es
 >> Spanish
 
-getCountry('ru')
+dict.getCountry('ru')
 >> Russia
 
-getCategory('sports')
+dict.getCategory('sports')
 >> Sports
 
-getLanguage('es')
+dict.getLanguage('es')
 >> Spanish
+
+dict.getObject('language') // language, country, category
+>> {
+  fr: "French",
+  en: "English",
+  ...
+}
 ```
 
 # License
