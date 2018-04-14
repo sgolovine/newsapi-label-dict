@@ -43,6 +43,15 @@ dict.getObject('language') // language, country, category
   en: "English",
   ...
 }
+
+dict.languageKeys
+>> [
+  'en',
+  'es',
+  'fr',
+  ...
+]
+// This function also applies to `countryKeys` and `categoryKeys`
 ```
 
 # License

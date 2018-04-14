@@ -2,6 +2,8 @@ const countries = require("./countries")
 const categories = require("./categories")
 const languages = require("./languages")
 
+const keys = require("./keys")
+
 function getCountry(countryCode) {
   return countries[countryCode]
 }
@@ -33,4 +35,7 @@ module.exports = {
   getCategory,
   getLanguage,
   getObject,
+  countryKeys: keys.countryKeys,
+  catgegoryKeys: keys.categoryKeys,
+  languageKeys: keys.languageKeys,
 }

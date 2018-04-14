@@ -1,3 +1,3 @@
 const dict = require("./")
 
-console.log(dict.getObject("country"))
+console.log(dict.catgegoryKeys)
