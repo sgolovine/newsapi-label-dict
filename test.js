@@ -1,3 +1,3 @@
-const countries = require("./")
+const dict = require("./")
 
-console.log(countries.getCountry("ru"))
+console.log(dict.getObject("country"))
