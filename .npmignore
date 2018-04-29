@@ -1,0 +1,7 @@
+.cache/
+node_modules/
+src/
+.prettierc
+.gitignore
+index.dev.html
+yarn.lock

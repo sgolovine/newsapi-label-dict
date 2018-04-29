@@ -1,20 +1,27 @@
 {
   "name": "newsapi-label-dict",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "ISO 3166-1 translations for NewsAPI Labels",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "prod": "parcel -p 4000 ./index.html",
+    "dev": "parcel -p 4000 ./index.dev.html",
+    "build": "parcel build ./src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sgolovine/newsapi-label-dict.git"
   },
+  "files": ["dist"],
   "keywords": ["newsapi", "iso3166-1"],
   "author": "Sunny Golovine",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sgolovine/newsapi-label-dict/issues"
   },
-  "homepage": "https://github.com/sgolovine/newsapi-label-dict#readme"
+  "homepage": "https://github.com/sgolovine/newsapi-label-dict#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.7.1"
+  }
 }
